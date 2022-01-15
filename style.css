@@ -65,3 +65,14 @@ align-items: center;
 .complet-btn{
     background: rgb(73, 284,73);
 }
+.fa-trash,.fa-check{
+    pointer-events: none;
+}
+.complet{
+    text-decoration:line-through ;
+    opacity: 0.5;
+}
+.fail{
+transform: translateY(8rem) rotateZ(20deg);
+opacity: 0;
+}
